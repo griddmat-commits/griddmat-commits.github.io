@@ -251,13 +251,13 @@
         <p>Brisbane, Australia · Serving Australia and the USA</p>
       </div>
     </div>
-    <!-- FormSubmit forwards submissions to griddmat@gmail.com. After activating, you can replace the email in the URL with the random alias FormSubmit emails you. -->
-    <form action="https://formsubmit.co/griddmat@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="New GridDMAT website enquiry">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_captcha" value="true">
-      <input type="hidden" name="_next" value="https://griddmat-commits.github.io/thanks.html">
-      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+    <!-- Web3Forms ("GridDmatForm") delivers submissions to griddmat@gmail.com. The access key is public by design. -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="3075acb0-4f99-4f62-a7ae-31aff48ed147">
+      <input type="hidden" name="subject" value="New GridDMAT website enquiry">
+      <input type="hidden" name="from_name" value="GridDMAT website">
+      <input type="hidden" name="redirect" value="https://griddmat-commits.github.io/thanks.html">
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
       <div class="row">
         <div><label for="name">Name</label><input id="name" name="name" required></div>
         <div><label for="email">Email</label><input id="email" type="email" name="email" required></div>
