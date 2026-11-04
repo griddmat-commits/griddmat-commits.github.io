@@ -1,0 +1,208 @@
+{
+ "items": [
+  {
+   "id": "2026-10-30-eia-solar-colocated-storage-share",
+   "date": "2026-10-30",
+   "added": "2026-11-04",
+   "title": "EIA: a growing share of US utility solar now sits beside battery storage",
+   "summary": "The US Energy Information Administration reports that, as of September 2026, 18% of US utility-scale solar capacity is co-located with batteries. Developer plans suggest the share could reach 19% by the end of 2026 and exceed 30% for projects planned for 2027 and 2028. California, Arizona, New Mexico and Nevada are well above the national average.",
+   "why": "More hybrid solar-plus-storage plants means more combined-plant models and controller interactions to verify at connection.",
+   "category": [
+    "Solar",
+    "BESS"
+   ],
+   "region": "US",
+   "source_name": "U.S. Energy Information Administration",
+   "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
+   "verified": "search result"
+  },
+  {
+   "id": "2026-10-29-bowen-data-centre-firming-rule-requests",
+   "date": "2026-10-29",
+   "added": "2026-11-04",
+   "title": "Federal minister asks AEMC for firm-energy and connection rules for data centres",
+   "summary": "Two rule change requests from Energy Minister Chris Bowen were posted by the AEMC on 28 October. One would require qualifying data centres to hold enough firmed energy contracts, enforced by the AER through penalties and possibly a forced demand reduction. The other seeks connection framework changes for co-located plant and flexible loads. The AEMC has not yet started either process.",
+   "why": "Co-located generation, storage and flexible data centre loads would each need connection studies and models under any new framework.",
+   "category": [
+    "Data centres",
+    "AU rules"
+   ],
+   "region": "AU",
+   "source_name": "RenewEconomy",
+   "source_url": "https://reneweconomy.com.au/data-centres-without-sufficient-firm-power-could-be-switched-off-under-bowen-rule-change-proposal/"
+  },
+  {
+   "id": "2026-10-29-hazelwood-2-grid-forming-bess-construction",
+   "date": "2026-10-29",
+   "added": "2026-11-04",
+   "title": "Construction starts on 150 MW / 300 MWh Hazelwood 2 grid-forming battery in Victoria",
+   "summary": "ENGIE has begun building a second battery at the former Hazelwood coal station site in the Latrobe Valley. The 150 MW / 300 MWh expansion will run in grid-forming mode, using Sungrow storage units and inverters, with Elecnor Australia as contractor. Together, the two Hazelwood batteries will total 300 MW.",
+   "why": "Another grid-forming BESS joins the NEM pipeline, where grid-forming performance and system strength are assessed in EMT models.",
+   "category": [
+    "BESS",
+    "IBR & grid codes"
+   ],
+   "region": "AU",
+   "source_name": "ESS News",
+   "source_url": "https://www.ess-news.com/2026/10/29/construction-begins-on-300-mwh-hazelwood-2-grid-forming-battery-in-australia/"
+  },
+  {
+   "id": "2026-10-27-nerc-board-adopts-computational-load-standards",
+   "date": "2026-10-27",
+   "added": "2026-11-04",
+   "title": "NERC board adopts first reliability standards for computational loads",
+   "summary": "NERC's Board of Trustees adopted foundational reliability standards for computational loads such as data centres on 26 October, after they passed final ballot on 14 October as part of Project 2026-02. NERC will next file the standards with FERC for approval.",
+   "why": "Large computational loads in the US are moving toward formal reliability obligations, including modelling.",
+   "category": [
+    "Data centres",
+    "US rules"
+   ],
+   "region": "US",
+   "source_name": "American Public Power Association",
+   "source_url": "https://www.publicpower.org/periodical/article/board-trustees-nerc-adopts-foundational-computational-load-reliability-standards"
+  },
+  {
+   "id": "2026-10-26-portugal-grid-forming-mandatory-bess",
+   "date": "2026-10-26",
+   "added": "2026-11-04",
+   "title": "Portugal makes grid-forming and synthetic inertia mandatory for large batteries",
+   "summary": "New Portuguese rules, applying to connection requests from 23 October, require grid-forming capability and synthetic inertia from new batteries of 45 MW or more or connected to the transmission grid. Detailed settings include a response across 47.0–52.5 Hz, rate of change of frequency up to 2 Hz/s, an adjustable inertia constant and minimum oscillation damping.",
+   "why": "A clear example of grid-forming moving from voluntary to mandatory, with settings that must be shown in plant models.",
+   "category": [
+    "IBR & grid codes",
+    "BESS"
+   ],
+   "region": "Global",
+   "source_name": "ESS News",
+   "source_url": "https://www.ess-news.com/2026/10/26/portugal-makes-grid-forming-mandatory-for-large-battery-storage-plants/"
+  },
+  {
+   "id": "2026-10-26-parron-maam-marang-wind-construction",
+   "date": "2026-10-26",
+   "added": "2026-11-04",
+   "title": "Construction begins on 470 MW Parron Maam Marang wind farm in WA",
+   "summary": "Atmos Renewables has officially started building the 470 MW Parron Maam Marang wind farm in the Wheatbelt, about 170 km north of Perth. It will use 78 Vestas V162-6.2 MW turbines, sell power to Synergy under a PPA and is due to operate by late 2028. It is the largest wind farm yet in Western Australia.",
+   "why": "A large new wind connection in the WEM, where Western Power and AEMO model requirements apply.",
+   "category": [
+    "Wind"
+   ],
+   "region": "AU",
+   "source_name": "RenewEconomy",
+   "source_url": "https://reneweconomy.com.au/construction-officially-starts-on-biggest-wind-farm-in-australia-for-two-years-and-largest-in-state/"
+  },
+  {
+   "id": "2026-10-20-akaysha-portfolio-refinancing",
+   "date": "2026-10-20",
+   "added": "2026-11-04",
+   "title": "Akaysha Energy refinances battery portfolio with A$1.75 billion facility",
+   "summary": "Akaysha Energy has moved its project-level debt into a single A$1.75 billion portfolio facility backed by a group of banks. Reports say it covers the operating Brendale, Orana and Ulinda Park batteries and the Elaine project under construction. The company says it also gives flexibility to speed up its next projects.",
+   "category": [
+    "BESS"
+   ],
+   "region": "AU",
+   "source_name": "Energy-Storage.news",
+   "source_url": "https://www.energy-storage.news/akaysha-energy-secures-au1-75-billion-portfolio-financing-for-australian-bess-expansion/",
+   "verified": "search result"
+  },
+  {
+   "id": "2026-10-13-neoen-france-grid-forming-software-retrofit",
+   "date": "2026-10-13",
+   "added": "2026-11-04",
+   "title": "French 92 MW battery to test grid-forming conversion by software update",
+   "summary": "Neoen has opened a 92 MW / 183 MWh battery at Pleyber-Christ in Brittany. The site is part of a trial led by French grid operator RTE to switch inverters from grid-following to grid-forming operation through a software change alone, without replacing hardware.",
+   "why": "If software retrofits work, existing batteries may need revised models and re-testing for grid-forming behaviour.",
+   "category": [
+    "BESS",
+    "IBR & grid codes"
+   ],
+   "region": "Global",
+   "source_name": "ESS News",
+   "source_url": "https://www.ess-news.com/2026/10/13/neoen-commissions-92-mw-183-mwh-battery-with-grid-forming-retrofit-in-france/"
+  },
+  {
+   "id": "2026-10-12-lgi-buys-queensland-solar-farms",
+   "date": "2026-10-12",
+   "added": "2026-11-04",
+   "title": "LGI buys two Queensland solar farms totalling 54 MW for A$22 million",
+   "summary": "Brisbane-based LGI has agreed to acquire the 34.5 MW Brigalow and 19.9 MW Chinchilla solar farms from IIG Solar Asset Trust for about A$500,000 per MW. LGI plans to take operations in-house and begin early studies on adding batteries at both sites.",
+   "why": "Adding batteries to existing solar farms usually triggers a performance standard change and updated plant models.",
+   "category": [
+    "Solar"
+   ],
+   "region": "AU",
+   "source_name": "pv magazine Australia",
+   "source_url": "https://www.pv-magazine-australia.com/2026/10/12/queensland-solar-farms-change-hands-in-22-million-deal/"
+  },
+  {
+   "id": "2026-10-09-pjm-expedited-interconnection-track-first-projects",
+   "date": "2026-10-09",
+   "added": "2026-11-04",
+   "title": "PJM clears first 2.1 GW through its expedited interconnection track",
+   "summary": "PJM has approved the first three projects under its temporary Expedited Interconnection Track: two Engie storage projects of 860 MW and 800 MW in Pennsylvania and Ohio, and a 455 MW gas uprate. The track takes up to 10 requests a year, expires at the end of 2027, and these projects target mid-2029.",
+   "why": "Fast-tracked projects still need complete, accurate models, often on compressed study timelines.",
+   "category": [
+    "US rules",
+    "BESS"
+   ],
+   "region": "US",
+   "source_name": "Utility Dive",
+   "source_url": "https://www.utilitydive.com/news/engie-ls-power-pjm-expedited-interconnection-eit/832613/"
+  },
+  {
+   "id": "2026-10-08-neso-emt-model-requirements-retrospective",
+   "date": "2026-10-08",
+   "added": "2026-11-04",
+   "title": "GB system operator sets out EMT model rules and retrospective submissions",
+   "summary": "NESO has issued its EMT model requirements and process for retrospective submission (Issue 1.0), under Grid Code modification GC0168. It sets technical rules for EMT models, including compatibility with PSCAD/EMTDC version 5.0 or later, and covers how owners of existing plant submit models when NESO requests them.",
+   "why": "Retrospective EMT model requests for existing plant are a trend Australian and US operators are also following.",
+   "category": [
+    "PSCAD & EMT",
+    "IBR & grid codes"
+   ],
+   "region": "Global",
+   "source_name": "NESO",
+   "source_url": "https://www.neso.energy/document/388531/download",
+   "verified": "search result"
+  },
+  {
+   "id": "2026-10-06-miso-dpp-2022-accelerated-queue",
+   "date": "2026-10-06",
+   "added": "2026-11-04",
+   "title": "States and developers back MISO plan to speed up its last legacy queue cycle",
+   "summary": "MISO has asked FERC to approve changes to clear its DPP-2022 cycle, about 71 GW of projects. These include allowing penalty-free withdrawal if network upgrade costs rise more than 50% (up from 35%) and capping restudies at one in the final phase. The Organization of MISO States and several developers filed support; one independent producer protested.",
+   "category": [
+    "US rules"
+   ],
+   "region": "US",
+   "source_name": "Utility Dive",
+   "source_url": "https://www.utilitydive.com/news/miso-accelerated-interconnection-queue-ferc/832246/"
+  },
+  {
+   "id": "2026-10-06-nem-utility-solar-record-september",
+   "date": "2026-10-06",
+   "added": "2026-11-04",
+   "title": "Utility solar output hits records in NSW, Queensland and Victoria in September",
+   "summary": "Rystad Energy data shows utility solar and wind in the NEM produced 5.44 TWh in September 2026, up 7% on a year earlier. Utility solar set records of 841 GWh in NSW, 645 GWh in Queensland and 276 GWh in Victoria. Solar curtailment fell to 22% of available output, from 26% a year earlier.",
+   "category": [
+    "Solar"
+   ],
+   "region": "AU",
+   "source_name": "pv magazine Australia",
+   "source_url": "https://www.pv-magazine-australia.com/2026/10/06/utility-solar-generation-reaches-record-highs-in-nem/"
+  },
+  {
+   "id": "2026-10-05-sma-first-german-grid-forming-certification",
+   "date": "2026-10-05",
+   "added": "2026-11-04",
+   "title": "SMA gains first certificate under Germany's grid-forming guideline",
+   "summary": "SMA's Sunny Central Storage UP-S battery inverter platform is the first to be certified under version 2.1 of the VDE FNN guideline for grid-forming capability. The guideline sets testing, verification and certification steps for grid-forming units taking part in Germany's new inertia market.",
+   "why": "Formal grid-forming certification schemes show how test-based verification of grid-forming behaviour is becoming standard practice.",
+   "category": [
+    "IBR & grid codes"
+   ],
+   "region": "Global",
+   "source_name": "ESS News",
+   "source_url": "https://www.ess-news.com/2026/10/05/sma-secures-first-german-certification-for-grid-forming-bess/"
+  }
+ ]
+}
