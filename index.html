@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="GridDMAT news" href="news.xml">
 <link rel="stylesheet" href="styles.css?v=7077be6d">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"GridDMAT","description":"PSCAD DMAT and EMT model acceptance testing for inverter-based resources and large loads.","areaServed":["Australia","United States"],"address":{"@type":"PostalAddress","addressLocality":"Brisbane","addressRegion":"QLD","addressCountry":"AU"},"founder":{"@type":"Person","name":"Nu One"},"foundingDate":"2026","email":"hello@griddmat.com"}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"GridDMAT","description":"PSCAD DMAT and EMT model acceptance testing for inverter-based resources and large loads.","areaServed":["Australia","United States"],"address":{"@type":"PostalAddress","addressLocality":"Brisbane","addressRegion":"QLD","addressCountry":"AU"},"founder":{"@type":"Person","name":"Nu One"},"foundingDate":"2026","email":"griddmat@gmail.com"}
 </script>
 </head>
 <body>
@@ -246,13 +246,18 @@
       <h2>Have a connection deadline coming up?</h2>
       <p class="lead">Send through the project type, jurisdiction and timeline. You'll get a reply within one business day.</p>
       <div class="contact-info">
-        <p>Email: <a href="mailto:hello@griddmat.com">hello@griddmat.com</a></p>
+        <p>Email: <a href="mailto:griddmat@gmail.com">griddmat@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/company/griddmat" target="_blank" rel="noopener">linkedin.com/company/griddmat</a></p>
         <p>Brisbane, Australia · Serving Australia and the USA</p>
       </div>
     </div>
-    <!-- Replace the action URL with your Formspree or Netlify form endpoint -->
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <!-- FormSubmit forwards submissions to griddmat@gmail.com. After activating, you can replace the email in the URL with the random alias FormSubmit emails you. -->
+    <form action="https://formsubmit.co/griddmat@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New GridDMAT website enquiry">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_next" value="https://griddmat-commits.github.io/thanks.html">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div class="row">
         <div><label for="name">Name</label><input id="name" name="name" required></div>
         <div><label for="email">Email</label><input id="email" type="email" name="email" required></div>
