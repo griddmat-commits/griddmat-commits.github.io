@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f5fa8"/><stop offset="1" stop-color="#0d3b73"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <path d="M0 300 Q40 250 80 300 T160 300 T240 300 T320 300 T400 300" fill="none" stroke="#9cc3ef" stroke-width="2" opacity=".25"/>
+  <circle cx="200" cy="160" r="70" fill="#d9e6f0"/>
+  <path d="M70 400 C70 300 130 255 200 255 C270 255 330 300 330 400 Z" fill="#e6eef8"/>
+  <path d="M175 258 L200 300 L225 258" fill="#ffffff"/>
+  <text x="200" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60" font-weight="800" fill="#0d3b73">Nu</text>
+</svg>

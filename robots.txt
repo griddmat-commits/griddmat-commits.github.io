@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://griddmat.com/sitemap.xml
