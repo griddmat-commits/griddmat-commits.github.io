@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PSCAD, DMAT and EMT model testing FAQ | GridDMAT</title>
+<meta name="description" content="Answers on PSCAD/EMT model acceptance testing, AEMO DMAT, ERCOT model quality tests, grid-forming vs grid-following, and how GridDMAT works.">
+<link rel="canonical" href="https://griddmat-commits.github.io/faq.html">
+<meta property="og:title" content="PSCAD, DMAT and EMT model testing FAQ | GridDMAT">
+<meta property="og:description" content="Answers on PSCAD/EMT model acceptance testing, AEMO DMAT, ERCOT model quality tests, grid-forming vs grid-following, and how GridDMAT works.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://griddmat-commits.github.io/faq.html">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="GridDMAT news" href="news.xml">
+<link rel="stylesheet" href="styles.css?v=6d6070ba">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://griddmat-commits.github.io/#org",
+   "name": "GridDMAT",
+   "url": "https://griddmat-commits.github.io/",
+   "email": "griddmat@gmail.com",
+   "areaServed": [
+    "Australia",
+    "United States"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Brisbane",
+    "addressRegion": "QLD",
+    "addressCountry": "AU"
+   },
+   "knowsAbout": [
+    "PSCAD",
+    "EMT modelling",
+    "DMAT",
+    "Dynamic Model Acceptance Test",
+    "Model validation",
+    "Battery energy storage systems",
+    "Grid-forming inverters",
+    "Solar farms",
+    "Wind farms",
+    "Data centre grid connection",
+    "AEMO",
+    "ERCOT",
+    "CAISO",
+    "Fault ride-through"
+   ],
+   "description": "Independent consultancy specialising in PSCAD/EMT model acceptance testing and validation for BESS, solar, wind and data centre grid connections in Australia and the USA."
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What does GridDMAT do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "GridDMAT specialises in PSCAD/EMT model acceptance testing and validation for BESS, solar, wind, hybrid and data centre grid connections in Australia and the USA."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is a DMAT?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A Dynamic Model Acceptance Test is AEMO's defined suite of simulation cases that a generating system's RMS and EMT models must pass before they are accepted for use in NEM connection and system studies."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is EMT modelling and why is PSCAD used?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Electromagnetic transient (EMT) models simulate fast power-electronic behaviour that RMS models can't capture, such as control interactions and behaviour in weak grids. PSCAD/EMTDC is the EMT tool most widely required by AEMO, Australian network service providers and many US system operators."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does model acceptance testing take?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It depends mainly on model readiness. With a healthy model and scripted test cases, a full test suite and report typically takes a few weeks per iteration; poor initialisation or missing documentation adds time. GridDMAT runs a health check first to find issues early."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the difference between grid-forming and grid-following?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A grid-following inverter synchronises to the measured grid voltage and injects current. A grid-forming inverter sets its own voltage and frequency reference and behaves more like a voltage source, which changes its response to faults, phase jumps and weak grids."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does ERCOT require PSCAD models?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. ERCOT requires EMT models for inverter-based resources as part of interconnection, alongside the PSS®E models. Check the current Planning Guide and Dynamic Working Group procedures for the exact requirements that apply to your project."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which US projects do you work on?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Mainly BESS, solar, wind and hybrid plants under about 800 MW that are committed or already operating, including older plants asked for new or updated PSCAD models."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you work with OEM-encrypted models?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, within the terms of the OEM's licence and confidentiality agreement. Encrypted OEM blocks are integrated and tested as supplied."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where is GridDMAT based?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Brisbane, Australia, with working hours that overlap both Australian and US time zones."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I request a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Use the contact form on the home page or email griddmat@gmail.com with the project type, size, jurisdiction and timeline."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="GridDMAT logo"><span>Grid<b>DMAT</b></span></a>
+    <ul>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#sectors">Sectors</a></li>
+      <li><a href="index.html#jurisdictions">Jurisdictions</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
+    <a class="btn" href="index.html#contact">Request a quote</a>
+  </div>
+</header>
+<section class="canvas page-hero"><div class="wrap"><nav class="crumbs"><a href="index.html">Home</a> › FAQ</nav>
+<p class="eyebrow">FAQ</p><h1 class="page-h1">Frequently asked questions</h1>
+<p class="lead">Straight answers on PSCAD/EMT model acceptance testing, DMAT, ERCOT model quality tests and grid-forming plants.</p></div></section>
+<section class="page-body"><div class="wrap page-grid"><article class="prose"><details class="qa" open><summary>What does GridDMAT do?</summary><p>GridDMAT specialises in PSCAD/EMT model acceptance testing and validation for BESS, solar, wind, hybrid and data centre grid connections in Australia and the USA.</p></details><details class="qa" open><summary>What is a DMAT?</summary><p>A Dynamic Model Acceptance Test is AEMO&#x27;s defined suite of simulation cases that a generating system&#x27;s RMS and EMT models must pass before they are accepted for use in NEM connection and system studies.</p></details><details class="qa" open><summary>What is EMT modelling and why is PSCAD used?</summary><p>Electromagnetic transient (EMT) models simulate fast power-electronic behaviour that RMS models can&#x27;t capture, such as control interactions and behaviour in weak grids. PSCAD/EMTDC is the EMT tool most widely required by AEMO, Australian network service providers and many US system operators.</p></details><details class="qa" open><summary>How long does model acceptance testing take?</summary><p>It depends mainly on model readiness. With a healthy model and scripted test cases, a full test suite and report typically takes a few weeks per iteration; poor initialisation or missing documentation adds time. GridDMAT runs a health check first to find issues early.</p></details><details class="qa" open><summary>What is the difference between grid-forming and grid-following?</summary><p>A grid-following inverter synchronises to the measured grid voltage and injects current. A grid-forming inverter sets its own voltage and frequency reference and behaves more like a voltage source, which changes its response to faults, phase jumps and weak grids.</p></details><details class="qa" open><summary>Does ERCOT require PSCAD models?</summary><p>Yes. ERCOT requires EMT models for inverter-based resources as part of interconnection, alongside the PSS®E models. Check the current Planning Guide and Dynamic Working Group procedures for the exact requirements that apply to your project.</p></details><details class="qa" open><summary>Which US projects do you work on?</summary><p>Mainly BESS, solar, wind and hybrid plants under about 800 MW that are committed or already operating, including older plants asked for new or updated PSCAD models.</p></details><details class="qa" open><summary>Do you work with OEM-encrypted models?</summary><p>Yes, within the terms of the OEM&#x27;s licence and confidentiality agreement. Encrypted OEM blocks are integrated and tested as supplied.</p></details><details class="qa" open><summary>Where is GridDMAT based?</summary><p>Brisbane, Australia, with working hours that overlap both Australian and US time zones.</p></details><details class="qa" open><summary>How do I request a quote?</summary><p>Use the contact form on the home page or email griddmat@gmail.com with the project type, size, jurisdiction and timeline.</p></details></article>
+<aside class="side"><div class="card"><h3>Services and sectors</h3><ul><li><a href="pscad-dmat-aemo.html">PSCAD DMAT for AEMO and NEM connections</a></li><li><a href="ercot-model-quality-tests.html">ERCOT PSCAD model quality tests</a></li><li><a href="us-pscad-model-validation.html">PSCAD model validation for new and existing US plants</a></li><li><a href="bess-model-testing.html">BESS model testing: grid-forming and grid-following</a></li><li><a href="solar-farm-model-testing.html">Solar farm and hybrid model testing</a></li><li><a href="wind-farm-model-testing.html">Wind farm model testing</a></li><li><a href="data-centre-ride-through-modelling.html">Data centre ride-through modelling</a></li></ul></div></aside></div></section>
+<div class="sitelinks"><div class="wrap"><a href="pscad-dmat-aemo.html">PSCAD DMAT for AEMO and NEM connections</a> · <a href="ercot-model-quality-tests.html">ERCOT PSCAD model quality tests</a> · <a href="us-pscad-model-validation.html">PSCAD model validation for new and existing US plants</a> · <a href="bess-model-testing.html">BESS model testing: grid-forming and grid-following</a> · <a href="solar-farm-model-testing.html">Solar farm and hybrid model testing</a> · <a href="wind-farm-model-testing.html">Wind farm model testing</a> · <a href="data-centre-ride-through-modelling.html">Data centre ride-through modelling</a> · <a href="faq.html">FAQ</a> · <a href="news.html">News</a></div></div>
+<footer>
+  <div class="wrap">
+    <span>© <span id="y"></span> GridDMAT · ABN XX XXX XXX XXX · Brisbane, Australia</span>
+    <span>PSCAD™ is a trademark of Manitoba Hydro International Ltd. PSS®E is a trademark of Siemens. GridDMAT is independent and not affiliated with either.</span>
+  </div>
+</footer>
+<script>document.getElementById('y')&&(document.getElementById('y').textContent=new Date().getFullYear())</script>
+</body>
+</html>

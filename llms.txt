@@ -1,0 +1,19 @@
+# GridDMAT
+
+> Independent Brisbane-based consultancy specialising in PSCAD/EMT model acceptance testing and validation (including AEMO DMAT and ERCOT model quality tests) for BESS, solar, wind, hybrid and data centre grid connections in Australia and the USA.
+
+GridDMAT builds jurisdiction-specific, scripted PSCAD test suites so model re-runs after firmware or setting changes are fast, and clients work directly with a senior PSCAD engineer. Australian work targets projects entering connection (AEMO, Transgrid, Powerlink, AusNet, ElectraNet, TasNetworks). US work targets committed and operating plants under about 800 MW (ERCOT, CAISO, PJM, MISO, SPP, NYISO, ISO-NE).
+
+## Services and sectors
+- [PSCAD DMAT for AEMO and NEM connections](https://griddmat-commits.github.io/pscad-dmat-aemo.html): PSCAD Dynamic Model Acceptance Testing (DMAT) to the AEMO DMAT Guideline v3.0 and TNSP requirements for BESS, solar, wind and hybrid connections in the NEM.
+- [ERCOT PSCAD model quality tests](https://griddmat-commits.github.io/ercot-model-quality-tests.html): PSCAD/EMT model quality testing for ERCOT interconnection of BESS, solar, wind and hybrid plants, plus NOGRR282 ride-through modelling for large electronic loads.
+- [PSCAD model validation for new and existing US plants](https://griddmat-commits.github.io/us-pscad-model-validation.html): PSCAD/EMT model validation for committed and operating US BESS, solar and wind plants: as-built validation, model updates after firmware changes, and NERC MOD-026/027 support.
+- [BESS model testing: grid-forming and grid-following](https://griddmat-commits.github.io/bess-model-testing.html): PSCAD/EMT model testing for battery energy storage systems: grid-forming and grid-following inverters, fault ride-through, system strength, DMAT and ERCOT model quality tests.
+- [Solar farm and hybrid model testing](https://griddmat-commits.github.io/solar-farm-model-testing.html): PSCAD/EMT model testing for utility-scale solar farms and hybrid PV + BESS plants: plant controller interaction, reactive capability, voltage control and fault ride-through.
+- [Wind farm model testing](https://griddmat-commits.github.io/wind-farm-model-testing.html): PSCAD/EMT model testing for wind farms with Type 3 and Type 4 wind turbine generators: multiple fault ride-through, collector networks and plant control.
+- [Data centre ride-through modelling](https://griddmat-commits.github.io/data-centre-ride-through-modelling.html): EMT modelling of data centre ride-through for large-load connections: UPS, power-electronic loads and on-site BESS, including ERCOT NOGRR282 for Large Electronic Loads.
+
+## More
+- [Frequently asked questions](https://griddmat-commits.github.io/faq.html): DMAT, EMT modelling, ERCOT, grid-forming vs grid-following.
+- [Grid connection & IBR news](https://griddmat-commits.github.io/news.html): weekly curated news on IBR, BESS, wind, solar, data centres and rule changes.
+- Contact: griddmat@gmail.com

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Solar farm and hybrid PV + BESS PSCAD model testing | GridDMAT</title>
+<meta name="description" content="PSCAD/EMT model testing for utility-scale solar farms and hybrid PV + BESS plants: plant controller interaction, reactive capability, voltage control and fault ride-through.">
+<link rel="canonical" href="https://griddmat-commits.github.io/solar-farm-model-testing.html">
+<meta property="og:title" content="Solar farm and hybrid PV + BESS PSCAD model testing | GridDMAT">
+<meta property="og:description" content="PSCAD/EMT model testing for utility-scale solar farms and hybrid PV + BESS plants: plant controller interaction, reactive capability, voltage control and fault ride-through.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://griddmat-commits.github.io/solar-farm-model-testing.html">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="GridDMAT news" href="news.xml">
+<link rel="stylesheet" href="styles.css?v=6d6070ba">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://griddmat-commits.github.io/#org",
+   "name": "GridDMAT",
+   "url": "https://griddmat-commits.github.io/",
+   "email": "griddmat@gmail.com",
+   "areaServed": [
+    "Australia",
+    "United States"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Brisbane",
+    "addressRegion": "QLD",
+    "addressCountry": "AU"
+   },
+   "knowsAbout": [
+    "PSCAD",
+    "EMT modelling",
+    "DMAT",
+    "Dynamic Model Acceptance Test",
+    "Model validation",
+    "Battery energy storage systems",
+    "Grid-forming inverters",
+    "Solar farms",
+    "Wind farms",
+    "Data centre grid connection",
+    "AEMO",
+    "ERCOT",
+    "CAISO",
+    "Fault ride-through"
+   ],
+   "description": "Independent consultancy specialising in PSCAD/EMT model acceptance testing and validation for BESS, solar, wind and data centre grid connections in Australia and the USA."
+  },
+  {
+   "@type": "Service",
+   "name": "Solar farm and hybrid model testing",
+   "serviceType": "Solar farm PSCAD model testing",
+   "description": "PSCAD/EMT model testing for utility-scale solar farms and hybrid PV + BESS plants: plant controller interaction, reactive capability, voltage control and fault ride-through.",
+   "provider": {
+    "@id": "https://griddmat-commits.github.io/#org"
+   },
+   "areaServed": [
+    "Australia",
+    "United States"
+   ],
+   "url": "https://griddmat-commits.github.io/solar-farm-model-testing.html"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Does a hybrid need one model or two?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It depends on how it is registered and connected. Where solar and storage share a connection point and plant controller, the combined behaviour must be demonstrated, so the models are tested together."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://griddmat-commits.github.io/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Solar farm and hybrid model testing",
+     "item": "https://griddmat-commits.github.io/solar-farm-model-testing.html"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="GridDMAT logo"><span>Grid<b>DMAT</b></span></a>
+    <ul>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#sectors">Sectors</a></li>
+      <li><a href="index.html#jurisdictions">Jurisdictions</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
+    <a class="btn" href="index.html#contact">Request a quote</a>
+  </div>
+</header>
+<section class="canvas page-hero">
+  <div class="wrap"><nav class="crumbs"><a href="index.html">Home</a> › Solar farm and hybrid model testing</nav>
+    <p class="eyebrow">Sector</p><h1 class="page-h1">Solar farm and hybrid model testing</h1><p class="lead">Utility-scale solar and hybrid PV + BESS plants combine many inverters, long collector networks and a plant controller. GridDMAT tests these models to AEMO, TNSP and US ISO requirements.</p>
+    <a class="btn" href="index.html#contact">Discuss your project</a></div>
+</section>
+<section class="page-body"><div class="wrap page-grid">
+  <article class="prose"><h2>Key modelling issues</h2><ul><li>Plant controller coordination of inverters, especially in hybrids with storage</li><li>Reactive power capability and voltage control across operating points</li><li>Source energy changes, such as irradiance steps</li><li>Collector network representation and aggregation</li></ul><h2>Hybrids</h2><p>Hybrids add a layer of complexity: the solar, battery and plant controller behaviour have to be shown together, and DC-coupled designs behave differently from AC-coupled ones.</p><h2>Frequently asked questions</h2><details class="qa"><summary>Does a hybrid need one model or two?</summary><p>It depends on how it is registered and connected. Where solar and storage share a connection point and plant controller, the combined behaviour must be demonstrated, so the models are tested together.</p></details></article>
+  <aside class="side"><div class="card"><h3>Related</h3><ul><li><a href="pscad-dmat-aemo.html">PSCAD DMAT for AEMO and NEM connections</a></li><li><a href="bess-model-testing.html">BESS model testing: grid-forming and grid-following</a></li><li><a href="us-pscad-model-validation.html">PSCAD model validation for new and existing US plants</a></li><li><a href="faq.html">Frequently asked questions</a></li></ul></div>
+    <div class="card"><h3>Talk to GridDMAT</h3><p>Send the project type, size, jurisdiction and timeline. Reply within one business day.</p>
+    <a class="btn" href="index.html#contact">Request a quote</a></div></aside>
+</div></section>
+<div class="sitelinks"><div class="wrap"><a href="pscad-dmat-aemo.html">PSCAD DMAT for AEMO and NEM connections</a> · <a href="ercot-model-quality-tests.html">ERCOT PSCAD model quality tests</a> · <a href="us-pscad-model-validation.html">PSCAD model validation for new and existing US plants</a> · <a href="bess-model-testing.html">BESS model testing: grid-forming and grid-following</a> · <a href="solar-farm-model-testing.html">Solar farm and hybrid model testing</a> · <a href="wind-farm-model-testing.html">Wind farm model testing</a> · <a href="data-centre-ride-through-modelling.html">Data centre ride-through modelling</a> · <a href="faq.html">FAQ</a> · <a href="news.html">News</a></div></div>
+<footer>
+  <div class="wrap">
+    <span>© <span id="y"></span> GridDMAT · ABN XX XXX XXX XXX · Brisbane, Australia</span>
+    <span>PSCAD™ is a trademark of Manitoba Hydro International Ltd. PSS®E is a trademark of Siemens. GridDMAT is independent and not affiliated with either.</span>
+  </div>
+</footer>
+<script>document.getElementById('y')&&(document.getElementById('y').textContent=new Date().getFullYear())</script>
+</body>
+</html>

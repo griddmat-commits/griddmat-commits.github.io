@@ -1,3 +1,26 @@
+# GridDMAT: search engines and AI search/answer crawlers are welcome.
 User-agent: *
 Allow: /
-Sitemap: https://griddmat.com/sitemap.xml
+Disallow: /thanks.html
+
+# AI crawlers (explicitly allowed; to block model training only, change GPTBot, ClaudeBot, CCBot and Google-Extended to "Disallow: /")
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://griddmat-commits.github.io/sitemap.xml
