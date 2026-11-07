@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://griddmat-commits.github.io/</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://griddmat-commits.github.io/news.html</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://griddmat-commits.github.io/faq.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://griddmat-commits.github.io/pscad-dmat-aemo.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://griddmat-commits.github.io/ercot-model-quality-tests.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://griddmat-commits.github.io/us-pscad-model-validation.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://griddmat-commits.github.io/bess-model-testing.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://griddmat-commits.github.io/solar-farm-model-testing.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://griddmat-commits.github.io/wind-farm-model-testing.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://griddmat-commits.github.io/data-centre-ride-through-modelling.html</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://griddmat-commits.github.io/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://griddmat-commits.github.io/news.html</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://griddmat-commits.github.io/faq.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://griddmat-commits.github.io/pscad-dmat-aemo.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://griddmat-commits.github.io/ercot-model-quality-tests.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://griddmat-commits.github.io/us-pscad-model-validation.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://griddmat-commits.github.io/bess-model-testing.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://griddmat-commits.github.io/solar-farm-model-testing.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://griddmat-commits.github.io/wind-farm-model-testing.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://griddmat-commits.github.io/data-centre-ride-through-modelling.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 </urlset>
